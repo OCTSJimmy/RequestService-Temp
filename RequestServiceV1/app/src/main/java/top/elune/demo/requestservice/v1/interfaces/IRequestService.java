@@ -14,7 +14,7 @@ public interface IRequestService
      * 提供该类支持的请求方式
      * @return 所支持的请求方式
      */
-    List<String> getRequiredMethods();
+    List<String> getSupportMethods();
     /**
      * @return
      * 取得优先级，
